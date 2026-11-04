@@ -1,0 +1,8 @@
+Hi, can you help me write a complaint to my bank?
+My name is Ravi Kumar, phone [PHONE], email [EMAIL].
+My card [CARD] was charged twice. My PAN is [PAN]
+and my Aadhaar is [AADHAAR]. Our office server is [IP].
+Here is the script that failed:
+    OPENAI_API_KEY = "[API_KEY]"
+    db_password: [SECRET]
+

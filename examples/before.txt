@@ -1,0 +1,7 @@
+Hi, can you help me write a complaint to my bank?
+My name is Ravi Kumar, phone +91 98765 43210, email ravi.kumar@example.com.
+My card 4111 1111 1111 1111 was charged twice. My PAN is ABCDE1234F
+and my Aadhaar is 2345 6789 0123. Our office server is 10.20.30.40.
+Here is the script that failed:
+    OPENAI_API_KEY = "sk-proj-AbCdEfGhIjKlMnOpQrStUvWx"
+    db_password: Sup3rS3cret!

@@ -1,0 +1,23 @@
+# robots.txt: ask AI companies' crawlers not to collect your site for model training.
+# Put this file at the root of your website, e.g. https://example.com/robots.txt
+# It is a request that major companies say they honour; it is not a technical lock.
+
+# OpenAI: crawler that collects data for training
+User-agent: GPTBot
+Disallow: /
+
+# Anthropic (Claude): crawler that collects data for training
+User-agent: ClaudeBot
+Disallow: /
+
+# Google: opt out of use in Gemini / AI training (Search indexing is unaffected)
+User-agent: Google-Extended
+Disallow: /
+
+# Common Crawl: a public dataset many AI models are trained on
+User-agent: CCBot
+Disallow: /
+
+# Everyone else (normal search engines) may still index the site
+User-agent: *
+Allow: /
